@@ -46,7 +46,7 @@ jobs:
         node-version: 22
         cache: 'npm'    
     - run: npm install      
-    - run: npm run start02
+    - run: npm run start03
 
   build04:
     name: Run Node.js 04
@@ -59,4 +59,4 @@ jobs:
         node-version: 22
         cache: 'npm'    
     - run: npm install      
-    - run: npm run start02
+    - run: npm run start04
